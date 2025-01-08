@@ -399,396 +399,6 @@ p:last-child{
   overflow: scroll;
   border: 1px solid #ccc;
 }
-/*-----FLIP TIMER-----*/
-/*.example {
-  font-family: 'Roboto', sans-serif;
-  width: 750px;
-  height: 200px;
-  margin: auto;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-.example .flipdown {
-  margin: auto;
-}
-
-.example h1 {
-  text-align: center;
-  font-weight: 100;
-  font-size: 3em;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
-.example p {
-  text-align: center;
-  font-weight: 100;
-  margin-top: 0;
-  margin-bottom: 35px;
-}
-
-.example .buttons {
-  width: 100%;
-  height: 50px;
-  margin: 50px auto 0px auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.example .buttons p {
-  height: 50px;
-  line-height: 50px;
-  font-weight: 400;
-  padding: 0px 25px 0px 0px;
-  color: #333;
-  margin: 0px;
-}
-
-.example .button {
-  display: inline-block;
-  height: 50px;
-  box-sizing: border-box;
-  line-height: 46px;
-  text-decoration: none;
-  color: #333;
-  padding: 0px 20px;
-  border: solid 2px #333;
-  border-radius: 4px;
-  text-transform: uppercase;
-  font-weight: 700;
-  transition: all .2s ease-in-out;
-}
-
-.example .button:hover {
-  background-color: #333;
-  color: #FFF;
-}
-
-.example .button i {
-  margin-right: 5px;
-}
-
-@media(max-width: 550px) {
-  .example {
-    width: 100%;
-    height: 362px;
-  }
-
-  .example h1 {
-    font-size: 2.5em;
-  }
-
-  .example p {
-    margin-bottom: 25px;
-  }
-
-  .example .buttons {
-    width: 100%;
-    margin-top: 25px;
-    text-align: center;
-    display: block;
-  }
-
-  .example .buttons p,
-  .example .buttons a {
-    float: none;
-    margin: 0 auto;
-  }
-
-  .example .buttons p {
-    padding-right: 0px;
-  }
-
-  .example .buttons a {
-    display: inline-block;
-  }
-}*/
-
-
-/* THEMES */
-
-/********** Theme: dark **********/
-/* Font styles */
-/*.flipdown.flipdown__theme-dark {
-  font-family: sans-serif;
-  font-weight: bold;
-}*/
-/* Rotor group headings */
-/*.flipdown.flipdown__theme-dark .rotor-group-heading:before {
-  color: #09122b;
-}*/
-/* Delimeters
-.flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):before,
-.flipdown.flipdown__theme-dark .rotor-group:nth-child(n+2):nth-child(-n+3):after {
-  background-color: #09122b;
-}*/
-/* Rotor tops */
-/*.flipdown.flipdown__theme-dark .rotor,
-.flipdown.flipdown__theme-dark .rotor-top,
-.flipdown.flipdown__theme-dark .rotor-leaf-front {
-  color: #dec463;
-  background-color: #09122b;
-}*/
-/* Rotor bottoms */
-/*.flipdown.flipdown__theme-dark .rotor-bottom,
-.flipdown.flipdown__theme-dark .rotor-leaf-rear {
-  color: #dec463;
-  background-color: #09122b;
-}*/
-/* Hinge */
-/*.flipdown.flipdown__them*/
-
-/********** Theme: light **********/
-/* Font styles */
-/*.flipdown.flipdown__theme-light {
-  font-family: sans-serif;
-  font-weight: bold;
-}*/
-/* Rotor group headings */
-/*.flipdown.flipdown__theme-light .rotor-group-heading:before {
-  color: #dec463;
-}*/
-/* Delimeters */
-/*.flipdown.flipdown__theme-light .rotor-group:nth-child(n+2):nth-child(-n+3):before,
-.flipdown.flipdown__theme-light .rotor-group:nth-child(n+2):nth-child(-n+3):after {
-  background-color: #DDDDDD;
-}*/
-/* Rotor tops */
-/*.flipdown.flipdown__theme-light .rotor,
-.flipdown.flipdown__theme-light .rotor-top,
-.flipdown.flipdown__theme-light .rotor-leaf-front {
-  color: #09122b;
-  background-color: #DDDDDD;
-}*/
-/* Rotor bottoms */
-/*.flipdown.flipdown__theme-light .rotor-bottom,
-.flipdown.flipdown__theme-light .rotor-leaf-rear {
-  color: #333333;
-  background-color: #EEEEEE;
-}*/
-/* Hinge */
-/*.flipdown.flipdown__theme-light .rotor:after {
-  border-top: solid 1px #dec463;
-}*/
-
-/* END OF THEMES */
-/*
-.flipdown {
-  overflow: visible;
-  width: 575px;
-  height: 110px;
-}
-
-.flipdown .rotor-group {
-  position: relative;
-  float: left;
-  padding-right: 30px;
-}
-
-.flipdown .rotor-group:last-child {
-  padding-right: 0;
-}
-
-.flipdown .rotor-group-heading:before {
-  display: block;
-  height: 30px;
-  line-height: 30px;
-  text-align: center;
-}
-
-.flipdown .rotor-group:nth-child(1) .rotor-group-heading:before {
-  content: attr(data-before);
-}
-
-.flipdown .rotor-group:nth-child(2) .rotor-group-heading:before {
-  content: attr(data-before);
-}
-
-.flipdown .rotor-group:nth-child(3) .rotor-group-heading:before {
-  content: attr(data-before);
-}
-
-.flipdown .rotor-group:nth-child(4) .rotor-group-heading:before {
-  content: attr(data-before);
-}
-
-.flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before {
-  content: '';
-  position: absolute;
-  bottom: 20px;
-  left: 115px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-}
-
-.flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
-  content: '';
-  position: absolute;
-  bottom: 50px;
-  left: 115px;
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-}
-
-.flipdown .rotor {
-  position: relative;
-  float: left;
-  width: 50px;
-  height: 80px;
-  margin: 0px 5px 0px 0px;
-  border-radius: 4px;
-  font-size: 4rem;
-  text-align: center;
-  perspective: 200px;
-}
-
-.flipdown .rotor:last-child {
-  margin-right: 0;
-}
-
-.flipdown .rotor-top,
-.flipdown .rotor-bottom {
-  overflow: hidden;
-  position: absolute;
-  width: 50px;
-  height: 40px;
-}
-
-.flipdown .rotor-leaf {
-  z-index: 1;
-  position: absolute;
-  width: 50px;
-  height: 80px;
-  transform-style: preserve-3d;
-  transition: transform 0s;
-}
-
-.flipdown .rotor-leaf.flipped {
-  transform: rotateX(-180deg);
-  transition: all 0.5s ease-in-out;
-}
-
-.flipdown .rotor-leaf-front,
-.flipdown .rotor-leaf-rear {
-  overflow: hidden;
-  position: absolute;
-  width: 50px;
-  height: 40px;
-  margin: 0;
-  transform: rotateX(0deg);
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-}
-
-.flipdown .rotor-leaf-front {
-  line-height: 80px;
-  border-radius: 4px 4px 0px 0px;
-}
-
-.flipdown .rotor-leaf-rear {
-  line-height: 0px;
-  border-radius: 0px 0px 4px 4px;
-  transform: rotateX(-180deg);
-}
-
-.flipdown .rotor-top {
-  line-height: 80px;
-  border-radius: 4px 4px 0px 0px;
-}
-
-.flipdown .rotor-bottom {
-  bottom: 0;
-  line-height: 0px;
-  border-radius: 0px 0px 4px 4px;
-}
-
-.flipdown .rotor:after {
-  content: '';
-  z-index: 2;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  width: 50px;
-  height: 40px;
-  border-radius: 0px 0px 4px 4px;
-}
-
-@media (max-width: 550px) {
-
-  .flipdown {
-    width: 312px;
-    height: 70px;
-  }
-
-  .flipdown .rotor {
-    font-size: 2.2rem;
-    margin-right: 3px;
-  }
-
-  .flipdown .rotor,
-  .flipdown .rotor-leaf,
-  .flipdown .rotor-leaf-front,
-  .flipdown .rotor-leaf-rear,
-  .flipdown .rotor-top,
-  .flipdown .rotor-bottom,
-  .flipdown .rotor:after {
-    width: 30px;
-  }
-
-  .flipdown .rotor-group {
-    padding-right: 20px;
-  }
-
-  .flipdown .rotor-group:last-child {
-    padding-right: 0px;
-  }
-
-  .flipdown .rotor-group-heading:before {
-    font-size: 0.8rem;
-    height: 20px;
-    line-height: 20px;
-  }
-
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before,
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
-    left: 69px;
-  }
-
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):before {
-    bottom: 13px;
-    height: 8px;
-    width: 8px;
-  }
-
-  .flipdown .rotor-group:nth-child(n+2):nth-child(-n+3):after {
-    bottom: 29px;
-    height: 8px;
-    width: 8px;
-  }
-
-  .flipdown .rotor-leaf-front,
-  .flipdown .rotor-top {
-    line-height: 50px;
-  }
-
-  .flipdown .rotor-leaf,
-  .flipdown .rotor {
-    height: 50px;
-  }
-
-  .flipdown .rotor-leaf-front,
-  .flipdown .rotor-leaf-rear,
-  .flipdown .rotor-top,
-  .flipdown .rotor-bottom,
-  .flipdown .rotor:after {
-    height: 25px;
-  }
-}*/
-/*flip timer 2*/
 .tick {
         padding-bottom: 1em;
         font-size:1rem;
@@ -832,7 +442,7 @@ p:last-child{
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <!--<li><a class="nav-link scrollto" href="#services">Services</a></li>-->
           <li><a class="nav-link scrollto" href="#keyd">Key Dates</a></li>
-          <li><a class="nav-link scrollto " href="#slide">Keynote Speakers</a></li>
+          <li><a class="nav-link scrollto " href="#speakers">Keynote Speakers</a></li>
           <li><a class="nav-link scrollto" href="#pricing">Register</a></li>
           <li><a class="nav-link scrollto" href="#faq">FAQ</a></li>
 
@@ -933,36 +543,11 @@ Hyderabad, India</h1>
             <img src="static/img/springer.png" style="width:220px;height:130px;">
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
             &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-            <img src="static/img/klu.png" style="width:220px;height:130px;">
+            <img src="static/img/klhb.jpg" style="width:220px;height:130px;">
 
-
-    <!--<img src="static/img/klu.png"
-     style="width:210px;height:110px;">
-     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-     <img src="static/img/springer.png"
-     style="width:220px;height:130px;">
-     &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-
-     <img src="static/img/uoj.jpg"
-     style="width:210px;height:140px;">-->
-     <!--<img src="static/img/CCIS.jpg" align="middle"  ><br>
-     <img src="static/img/springer.jpg"   align="left">
-
-     <img src="static/img/klu.png" align="right" style="width:210px;height:110px;" >
--->
-<!--<img src="static/img/klu.png" align="middle" style="width:210px;height:110px;" >-->
     </div>
 
           <!-- ======= FLIP TIMER PRAC ======= -->
-           <!-- <div class="example">
-              <div id="flipdown" class="flipdown"></div>
-              <p>MARK YOUR CALENDARS</p>
-            </div>-->
-            <!--<p style="text-align: rigth;">MARK YOUR CALENDARS</p><br><br>-->
-            <!--<br><br><br><br><br><br><br>-->
-
-            <!--<br><br><br><br>
-            <br><br><br>-->
             <p style= "white-space: pre-line;" align="middle">MARK YOUR CALENDARS</p></div>
             <div class="tick"
               data-did-init="handleTickInit">
@@ -1004,22 +589,7 @@ Hyderabad, India</h1>
               <li><i class="ri-check-double-line"></i>
                 In this Conference, we will focus on the Math-Model design and generations for improved solutions and decision makings by exploring of Computational Intelligence and Generative AI research areas across the World with the Theme eHealthCare, Data Science and Decision Making Systems.
               </li>
-              <!--
-              <li><i class="ri-check-double-line"></i>Knowledge in engineering sciences is about sharing our ideas of
-              research to others. In engineering, it has many ways to exhibit. In that
-              conference is the best way to propose your idea of research and its
-              future scope, it is the best way to add energy to build strong and
-              innovative future.</li>
-              <li><i class="ri-check-double-line"></i>Here we are to give a small support from our side
-              to confer your ideas by an "International Conference on Smart
-              Technologies in Data Science And Communication (ICMISC-2023)".
-              Related to Electrical, Electronics, Information Technology and
-              Computer Science. It is not confined to a specific topic or region, you
-              can exhibit your ideas in similar or mixed or related technologies
-              bloomed from anywhere around the world because “An idea can
-              change the future and its implementation can build it”</li>
-              <li><i class="ri-check-double-line"></i> K L University is a great platform to make your Idea(s) penetrated into world. Our environment leads you to a path on your idea. Our people will lead your confidence and finally we give our best to make yours. Our intention is to make Intelligence in engineering to fly higher and higher. Our review process is double blinded. You can trust us on your confidentiality.</li>
-              -->
+
             </ul>
           </div>
         </div>
@@ -1541,231 +1111,47 @@ DBLP, EI Compendex, INSPEC, Japanese Science and Technology Agency (JST), Norweg
 </div>
 </section>
 
-    <!--END MAP-->
-    <!--Image Slider-->
-    <!--
-    <section id="slide" class="services">
-      <div class="container">
-        <div class="section-title" data-aos="zoom-out">
-          <p>Keynote Speakers</p>
-        </div>
-      </div>
+      <!--SPEAKERS-->
 
-    <div class="tech-slideshow">
-  <div class="mover-1"></div>
-  <div class="mover-2"></div>
-</div>
-</section>-->
-    <!-- End-->
-
-    <!-- ======= Portfolio Section ======= -->
-   <!-- <section id="portfolio" class="portfolio">
-      <div class="container">
-
-        <div class="section-title" data-aos="zoom-out">
-          <h2>Portfolio</h2>
-          <p>What we've done</p>
-        </div>
-
-        <ul id="portfolio-flters" class="d-flex justify-content-end" data-aos="fade-up">
-          <li data-filter="*" class="filter-active">All</li>
-          <li data-filter=".filter-app">App</li>
-          <li data-filter=".filter-card">Card</li>
-          <li data-filter=".filter-web">Web</li>
-        </ul>
-
-        <div class="row portfolio-container" data-aos="fade-up">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>-->
-    <!-- End Portfolio Section -->
-
-    <!-- ======= Testimonials Section =======
-    <section id="testimonials" class="testimonials">
-      <div class="container">
-
-        <div class="section-title" data-aos="zoom-out">
-          <h2>Testimonials</h2>
-          <p>What they are saying about us</p>
-        </div>
-
-        <div class="testimonials-slider swiper-container" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">-->
-
-           <!-- <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-              </div>
-            </div> End testimonial item
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-              </div>
-            </div>--><!-- End testimonial item -->
-
-           <!-- <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Thanks a lot for all you do!
-                  Our success depends on people like you, whose skills and positive energy make great things happen. By stepping up every task with enthusiasm and determination, you earn our gratitude and praise. Your star quality in making the video of the Mega Diabetic Camp at Sanjivani Hospital, Kuchipudi is outstanding and it makes bright each day when we play it for our patients and employees.
-                  Once again we highly appreciate all your support and help.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>-->
-                <!--<img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">-->
-               <!-- <h3>Vasu Kudupudi</h3>
-                <h4>Chief Operating< Officer</h4>
-              </div>
-            </div>-->
-            <!-- End testimonial item -->
-
-           <!-- <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  These people helped me alot in Automating Excel data records. The best thing about this team is their delivery of work within time and the way they keep confidentiality of work. Keep it up. God bless you.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>-->
-                <!--<img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">-->
-               <!-- <h3>Sai Kumar</h3>
-                <h4>Private school Principal</h4>
-              </div>
-            </div>-->
-            <!-- End testimonial item -->
-
-           <!-- <div class="swiper-slide">
-              <div class="testimonial-item">
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  You guys did a great job. You made me an Hospital Management system within 3 days. It helped me a lot.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>-->
-                <!--<img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">-->
-                <!--<h3>Ram</h3>
-                <h4>Student & Freelancer</h4>
-              </div>
-            </div>-->
-            <!-- End testimonial item -->
-
-        <!--  </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section>-->
-    <!-- End Testimonials Section -->
+<section id="speakers" class="speakers">
+  <div class="container">
+    <div class="section-title" data-aos="zoom-out">
+      <p>Speakers</p>
+    </div>
+    <div class="speakers-grid">
+      <ul>
+        <li>
+            <strong>Prof. Dipti Parasd Mukherjee</strong>, Indian Statistical Institute, Kolkata, India
+        </li>
+        <li>
+            <strong>Prof. Young-cheol Byun</strong>, Jeju National University, Jeju Island, South Korea
+        </li>
+        <li>
+            <strong>Dr. Pelin Angin</strong>, Middle East Technical University, Ankara, Turkey
+        </li>
+        <li>
+            <strong>Prof. Sanjoy Kumar Saha</strong>, Jadavpur University, Kolkata, India
+        </li>
+        <li>
+            <strong>Dr. Jeroslav Frnda</strong>, University of Zilina, Zilina, Slovak Republic
+        </li>
+        <li>
+            <strong>Dr. Joydeep Chandra</strong>, IIT Patna, India
+        </li>
+        <li>
+            <strong>Prof. Paul Kwan</strong>, Central Queensland University, Brisbane, Australia
+        </li>
+        <li>
+            <strong>Dr. Susmit Sannigrahi</strong>, Tennessee Technological University, USA
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
 
     <!-- ======= Pricing Section ======= -->
     <section id="pricing" class="pricing">
       <div class="container">
-
         <div class="section-title" data-aos="zoom-out">
       <!--
           <h2>REGISTRATIONS</h2>
@@ -1953,38 +1339,47 @@ DBLP, EI Compendex, INSPEC, Japanese Science and Technology Agency (JST), Norweg
       <div class="container">
         <div class="section-title" data-aos="zoom-out">
           <h2>Conference Committee</h2>
+
+          <p>CHIEF PATRONS</p>
+            <b style="font-size:20px;">Er. K. Satyanarayana,</b>
+            <span>President, KLEF</span>
+            <br>
+            <b style="font-size:20px;">Er. K. L. Havish,</b>
+            <span>Vice-President, KLEF</span>
+            <br>
+            <b style="font-size:20px;">Er. K. Raja Hareen,</b>
+            <span>Vice-President, KLEF</span>
+
+            <p>CO-PATRONS</p>
+            <b style="font-size:20px;">Dr. K. S. Jaganatha Rao,</b>
+            <span>Pro Chancellor, KLEF</span>
+            <br>
+            <b style="font-size:20px;">Dr. G. P. Saradhi Varma,</b>
+            <span>Vice Chancellor, KLEF</span>
+            <br>
+            <b style="font-size:20px;">Dr. N. Venkatram,</b>
+            <span>Pro Vice-Chancellor, KLEF</span>
+            <br>
+            <b style="font-size:20px;">Dr. A. V. S. Prasad,</b>
+            <span>Pro Vice-Chancellor, KLEF</span>
+            <br>
+            <b style="font-size:20px;">Dr. K. Rajasekhara Rao,</b>
+            <span>Pro Vice-Chancellor, KLEF</span>
+            <br>
+            <b style="font-size:20px;">Dr. K. Subba Rao,</b>
+            <span>Registrar, KLEF</span>
+
+
           <p>General Chairs:</p>
-          <br>
           <b style="font-size:20px;">Osvaldo Gervasi,</b>
                 <span>University of Perugia, Italy</span>
                 <br>
-         <!-- <b style="font-size:20px;">Rama Krishna Akella,</b>
-                      <span>KL University, Hyderabad, India</span>-->
+          <b style="font-size:20px;">L Koteswara Rao,</b>
+                      <span>KLEF, Bowrampet Campus, Hyderabad, India</span>
         </div>
 
-<!--
         <div class="section-title" data-aos="zoom-out">
-            <p>Technical Program Committee Chairs:</p>
-            <br>
-            <b style="font-size:20px;">Tom Yeh,</b>
-            <span>University of Colorado Boulder, USA.</span>
-            <br>
-            <b style="font-size:20px;">Joydeep Chandra,</b>
-            <span>IIT, Patna, Bihar, India.</span>
-            <br>
-            <b style="font-size:20px;">Paul Kwan,</b>
-            <span>Central Queensland University, Brisbane, Queensland, Australia.</span>
-            <br>
-            <b style="font-size:20px;">Pelin ANGIN,</b>
-            <span>Middle East Technical University, Ankara, Turkey.</span>
-            <br>
-            <b style="font-size:20px;">Arindam Biswas,</b>
-            <span>Kazi Nazrul University, Asansol, WB, India.</span>
-            <br><br>
--->
-<div class="section-title" data-aos="zoom-out">
             <p>Technical Program Committee:</p>
-            <br>
             <b style="font-size:20px;">Yu-Chen Hu,</b>
             <span>Tunghai University, Taichung City, Taiwan.</span>
             <br>
@@ -1996,786 +1391,208 @@ DBLP, EI Compendex, INSPEC, Japanese Science and Technology Agency (JST), Norweg
             <br>
             <b style="font-size:20px;">Rajib Ghosh,</b>
             <span>National Institute of Technology, Patna, India.</span>
-            <br><br>
+
 
             <p>International Program Committee:</p>
-<br>
-<b style="font-size:20px;">Debapriya Hazra,</b>
-<span>McGowan Institute for Regenerative Medicine, University of Pittsburgh, USA.</span>
-<br>
-<b style="font-size:20px;">Pelin ANGIN,</b>
-<span>Middle East Technical University, Ankara, Turkey.</span>
-<br>
-<b style="font-size:20px;">Nilgun Sengoz,</b>
-<span>Burdur Mehmet Akif Ersoy University, Burdur, Turkey.</span>
-<br>
-<b style="font-size:20px;">Joydeep Chandra,</b>
-<span>IIT, Patna, Bihar, India.</span>
-<br>
-<b style="font-size:20px;">Paul Kwan,</b>
-<span>Central Queensland University, Brisbane, Queensland, Australia.</span>
-<br>
-<b style="font-size:20px;">Arindam Biswas,</b>
-<span>Kazi Nazrul University, Asansol, WB, India.</span>
-<br>
-<b style="font-size:20px;">Sanjoy Kumar Saha,</b>
-<span>Jadavpur University, Kolkata, India.</span>
-<br>
-<b style="font-size:20px;">Tom Yeh,</b>
-<span>University of Colorado Boulder, USA.</span>
-<br>
-<b style="font-size:20px;">Philippe Fournier-Viger,</b>
-<span>Shenzhen University, Shenzhen, Guangdong, China.</span>
-<br>
-<b style="font-size:20px;">Susmit Shannigrahi,</b>
-<span>Tennessee Tech University, USA.</span>
-<br>
-<b style="font-size:20px;">Snehanshu Pal,</b>
-<span>NIT, Rourkela, India.</span>
-<br>
-<b style="font-size:20px;">Zhihan Lv,</b>
-<span>Uppsala University, Sweden.</span>
-<br>
-<b style="font-size:20px;">Paul S. Pang,</b>
-<span>Federation University, Australia.</span>
-<br>
-<b style="font-size:20px;">Sabah Mohammed,</b>
-<span>Lakehead University, Ontario, Canada.</span>
-<br>
-<b style="font-size:20px;">Sekhar Verma,</b>
-<span>IIIT Allahabad, India.</span>
-<br>
-<b style="font-size:20px;">Tseren-Onolt Ishdorj,</b>
-<span>Mongolian University of Science and Technology, Mongolia.</span>
-<br>
-<b style="font-size:20px;">Sourav Sen Gupta,</b>
-<span>IMEC, Leuven, Belgium.</span>
-<br>
-<b style="font-size:20px;">N. Venkatram,</b>
-<span>K L University, Guntur, India.</span>
-<br>
-<b style="font-size:20px;">Tai-hoon Kim,</b>
-<span>Chonnam National University, South Korea.</span>
-<br>
-<b style="font-size:20px;">Jinan Fiaidhi,</b>
-<span>Lakehead University, Ontario, Canada.</span>
-<br>
-<b style="font-size:20px;">Y. Byun,</b>
-<span>Jeju National University, South Korea.</span>
-<br>
-<b style="font-size:20px;">Khuder Altangeral,</b>
-<span>Mongolian Institute of Science and Technology, Mongolia.</span>
-<br>
-<b style="font-size:20px;">Rosslin Robles,</b>
-<span>University of San Agustin, Philippines.</span>
-<br>
-<b style="font-size:20px;">Alexey Setekein,</b>
-<span>Immanuel Kant Baltic Federal University, Russia.</span>
-<br>
-<b style="font-size:20px;">Sayan K. Ray,</b>
-<span>Manukau Institute of Technology, Manukau, New Zealand.</span>
-<br>
-<b style="font-size:20px;">JIN Xue-bo,</b>
-<span>Beijing Technology and Business University, Beijing, China.</span>
+                <b style="font-size:20px;">Debapriya Hazra,</b>
+                <span>McGowan Institute for Regenerative Medicine, University of Pittsburgh, USA.</span>
+                <br>
+                <b style="font-size:20px;">Pelin ANGIN,</b>
+                <span>Middle East Technical University, Ankara, Turkey.</span>
+                <br>
+                <b style="font-size:20px;">Nilgun Sengoz,</b>
+                <span>Burdur Mehmet Akif Ersoy University, Burdur, Turkey.</span>
+                <br>
+                <b style="font-size:20px;">Joydeep Chandra,</b>
+                <span>IIT, Patna, Bihar, India.</span>
+                <br>
+                <b style="font-size:20px;">Paul Kwan,</b>
+                <span>Central Queensland University, Brisbane, Queensland, Australia.</span>
+                <br>
+                <b style="font-size:20px;">Arindam Biswas,</b>
+                <span>Kazi Nazrul University, Asansol, WB, India.</span>
+                <br>
+                <b style="font-size:20px;">Sanjoy Kumar Saha,</b>
+                <span>Jadavpur University, Kolkata, India.</span>
+                <br>
+                <b style="font-size:20px;">Tom Yeh,</b>
+                <span>University of Colorado Boulder, USA.</span>
+                <br>
+                <b style="font-size:20px;">Philippe Fournier-Viger,</b>
+                <span>Shenzhen University, Shenzhen, Guangdong, China.</span>
+                <br>
+                <b style="font-size:20px;">Susmit Shannigrahi,</b>
+                <span>Tennessee Tech University, USA.</span>
+                <br>
+                <b style="font-size:20px;">Snehanshu Pal,</b>
+                <span>NIT, Rourkela, India.</span>
+                <br>
+                <b style="font-size:20px;">Zhihan Lv,</b>
+                <span>Uppsala University, Sweden.</span>
+                <br>
+                <b style="font-size:20px;">Paul S. Pang,</b>
+                <span>Federation University, Australia.</span>
+                <br>
+                <b style="font-size:20px;">Sabah Mohammed,</b>
+                <span>Lakehead University, Ontario, Canada.</span>
+                <br>
+                <b style="font-size:20px;">Sekhar Verma,</b>
+                <span>IIIT Allahabad, India.</span>
+                <br>
+                <b style="font-size:20px;">Tseren-Onolt Ishdorj,</b>
+                <span>Mongolian University of Science and Technology, Mongolia.</span>
+                <br>
+                <b style="font-size:20px;">Sourav Sen Gupta,</b>
+                <span>IMEC, Leuven, Belgium.</span>
+                <br>
+                <b style="font-size:20px;">N. Venkatram,</b>
+                <span>K L University, Guntur, India.</span>
+                <br>
+                <b style="font-size:20px;">Tai-hoon Kim,</b>
+                <span>Chonnam National University, South Korea.</span>
+                <br>
+                <b style="font-size:20px;">Jinan Fiaidhi,</b>
+                <span>Lakehead University, Ontario, Canada.</span>
+                <br>
+                <b style="font-size:20px;">Y. Byun,</b>
+                <span>Jeju National University, South Korea.</span>
+                <br>
+                <b style="font-size:20px;">Khuder Altangeral,</b>
+                <span>Mongolian Institute of Science and Technology, Mongolia.</span>
+                <br>
+                <b style="font-size:20px;">Rosslin Robles,</b>
+                <span>University of San Agustin, Philippines.</span>
+                <br>
+                <b style="font-size:20px;">Alexey Setekein,</b>
+                <span>Immanuel Kant Baltic Federal University, Russia.</span>
+                <br>
+                <b style="font-size:20px;">Sayan K. Ray,</b>
+                <span>Manukau Institute of Technology, Manukau, New Zealand.</span>
+                <br>
+                <b style="font-size:20px;">JIN Xue-bo,</b>
+                <span>Beijing Technology and Business University, Beijing, China.</span>
 
-            <!--<p>Advisory Chairs:</p>
-            <br>
-            <b style="font-size:20px;">Sanjoy Kumar Saha,</b>
-            <span>Jadavpur University, Kolkata, India.</span>
-            <br>
-            <b style="font-size:20px;">Philippe Fournier-Viger,</b>
-            <span>Shenzhen University, Shenzhen, Guangdong, China.</span>
-            <br>
-            <b style="font-size:20px;">Susmit Shannigrahi,</b>
-            <span>Tennessee Tech University, USA.</span>
-            <br>
-            <b style="font-size:20px;">Snehanshu Pal,</b>
-            <span>NIT, Rourkela, India.</span>
-            <br>
-            <b style="font-size:20px;">Zhihan Lv,</b>
-            <span>Uppsala University, Sweden.</span>
-            <br>
-            <b style="font-size:20px;">Paul S. Pang,</b>
-            <span>Federation University, Australia.</span>
-            <br>
-            <b style="font-size:20px;">Sabah Mohammed,</b>
-            <span>Lakehead University, Ontario, Canada.</span>
-            <br>
-            <b style="font-size:20px;">Sekhar Verma,</b>
-            <span>IIIT Allahabad, India.</span>
-            <br>
-            <b style="font-size:20px;">Tseren-Onolt Ishdorj,</b>
-            <span>Mongolian University of Science and Technology, Mongolia.</span>
-            <br>
-            <b style="font-size:20px;">Sourav Sen Gupta,</b>
-            <span>IMEC, Leuven, Belgium.</span>
-            <br>
-            <b style="font-size:20px;">N. Venkatram,</b>
-            <span>K L University, Guntur, India.</span>
-            <br><br>
-
-            <p>Publicity Chairs:</p>
-            <br>
-            <b style="font-size:20px;">Tai-hoon Kim,</b>
-            <span>Chonnam National University, South Korea.</span>
-            <br>
-            <b style="font-size:20px;">Jinan Fiaidhi,</b>
-            <span>Lakehead University, Ontario, Canada.</span>
-            <br>
-            <b style="font-size:20px;">Y. Byun,</b>
-            <span>Jeju National University, South Korea.</span>
-            <br>
-            <b style="font-size:20px;">Khuder Altangeral,</b>
-            <span>Mongolian Institute of Science and Technology, Mongolia.</span>
-            <br>
-            <b style="font-size:20px;">Rosslin Robles,</b>
-            <span>University of San Agustin, Philippines.</span>
-            <br>
-            <b style="font-size:20px;">Alexey Setekein,</b>
-            <span>Immanuel Kant Baltic Federal University, Russia.</span>
-            <br>
-            <b style="font-size:20px;">Sayan K. Ray,</b>
-            <span>Manukau Institute of Technology, Manukau, New Zealand.</span>
-            <br><br>-->
-
-            <!--
-            <p>Local Arrangement Committee:</p>
-            <br>
-            <b style="font-size:20px;">Thirupathi Rao Nakka,</b>
-            <span>Vignan's Institute of Information Technology, India.</span>
-            <br>
-            <b style="font-size:20px;">Xiao-Zhi Gao,</b>
-            <span>University of Eastern Finland, Finland.</span>
-            <br>
-            <b style="font-size:20px;">Khuder Altangerel,</b>
-            <span>Mongolian University of Science and Technology, Mongolia.</span>
-            <br>
-            <b style="font-size:20px;">Randy Santocildes Tolentino,</b>
-            <span>Hanseo University, South Korea.</span>
-            <br>
-            <b style="font-size:20px;">Megha Bhushan,</b>
-            <span>DIT University, Dehradun, India.</span>
-            <br><br>-->
-            <!--<p>Local Conference Committee:</p>
-            <b style="font-size:20px;">Trinath Basu,</b>
-            <span>KL University, Hyderabad, India.</span>
-            <br>
-            <b style="font-size:20px;">P. Sreelakshmi,</b>
-            <span>KL University, Hyderabad, India.</span>
-            <br>
-
-            <p>Convener:</p>
-            <b style="font-size:20px;">Arpita Gupta,</b>
-            <span>KL University, Hyderabad, India.</span>
-            <br>
-            <b style="font-size:20px;">Sumalakshmi CH,</b>
-            <span>KL University, Hyderabad, India.</span>
-            <br><br>
-
-            <p>CO-CONVENER:</p>
-            <b style="font-size:20px;">Shadab Siddiqui,</b>
-            <span>KL University, Hyderabad, India.</span>
-            <br>
-            <b style="font-size:20px;">Sumit Hazra,</b>
-            <span>KL University, Hyderabad, India.</span>
-            <br><br>-->
 
             <p>ORGANIZING SECRETARY</p>
-            <b style="font-size:20px;">Kingsley Ogudo,</b>
-            <span>University of Johannesburg, South Africa.</span>
-            <br>
-            <!--
-            <b style="font-size:20px;">Pavan Kumar,</b>
-            <span>KL University, Hyderabad, India.</span>
-            <br>
-            <b style="font-size:20px;">Chanda Rajkumar,</b>
-            <span>KL University, Hyderabad, India.</span>
-            <br>-->
-            <b style="font-size:20px;">Megha Bhushan,</b>
-            <span>University of Seville, Spain.</span>
-            <br><br>
+                <b style="font-size:20px;">Megha Bhushan,</b>
+                <span>University of Seville, Spain</span>
+                <br>
+                <b style="font-size:20px;">P. Ramesh Babu,</b>
+                <span>KLEF, Bowrampet Campus, Hyderabad, India</span>
+                <br>
+                <b style="font-size:20px;">Kingsley Ogudo,</b>
+                <span>University of Johannesburg, South Africa</span>
+                <br>
+                <b style="font-size:20px;">P. Venkateswara Rao,</b>
+                <span>KLEF, Bowrampet Campus, Hyderabad, India</span>
 
 
+    <p>ARRANGEMENT COMMITTEE</p>
+<b style="font-size:20px;">Ramona Trestian,</b>
+<span>Middlesex University, London, UK</span>
+<br>
+<b style="font-size:20px;">Rita Roy,</b>
+<span>GITAM, Visakhapatnam, India</span>
+<br>
+<b style="font-size:20px;">K. Sreerama Murthy,</b>
+<span>KLEF, Bowrampet Campus, Hyderabad, India</span>
+<br>
+<b style="font-size:20px;">Victoria Fast,</b>
+<span>University of Calgary, Italy</span>
+<br>
+<b style="font-size:20px;">Dipanwita Debnath,</b>
+<span>KLEF, Bowrampet Campus, Hyderabad, India</span>
+<br>
+<b style="font-size:20px;">Omar Saad,</b>
+<span>MOHESR, Iraq</span>
+<br>
+<b style="font-size:20px;">K. Madhavi,</b>
+<span>KLEF, Bowrampet Campus, Hyderabad, India</span>
+<br>
+<b style="font-size:20px;">Laila Moussaid,</b>
+<span>ENSEM Casablanca, Maroc</span>
+<br>
+<b style="font-size:20px;">A. Srilakshmi,</b>
+<span>KLEF, Bowrampet Campus, Hyderabad, India</span>
+<br>
+<b style="font-size:20px;">Gayatri S. Mirajkar,</b>
+<span>Arvind Gavali College of Engineering, Satara, India</span>
+<br>
+<b style="font-size:20px;">SK. Khaja Shareef,</b>
+<span>KLEF, Bowrampet Campus, Hyderabad, India</span>
+<br>
+<b style="font-size:20px;">Kunal Das,</b>
+<span>APC College, Government of West Bengal, Kolkata, India</span>
 
 
-<!-- OLD VERSION
-      <div class="section-title" data-aos="zoom-out">
-          <p>Key Committee Members:</p>
-          <br>
-          <b style="font-size:20px;">Madjid Tavana,</b>
-          <span>Distinguished Chair of Business Systems and Analytics, La Salle University, USA.</span>
-          <br><br>
-          <b style="font-size:20px;">Rajib Ghosh,</b>
-          <span>National Institute of Technology, Patna, Bihar, India.</span>
-          <br><br>
-          <b style="font-size:20px;">Pelin ANGIN,</b>
-          <span>Middle East Technical University, Ankara, Turkey.</span>
-          <br><br>
-          <b style="font-size:20px;">Sanjoy Kumar Saha,</b>
-          <span>Jadavpur University, Kolkata, India.</span>
-          <br><br>
-          <b style="font-size:20px;">Joydeep Chandra,</b>
-          <span>IIT, Patna, Bihar, India.</span>
-          <br><br>
-          <b style="font-size:20px;">Yu-Chen Hu,</b>
-          <span>Tunghai University, Taichung City, Taiwan.</span>
-          <br><br>
-          <b style="font-size:20px;">Philippe Fournier-Viger,</b>
-          <span>Shenzhen University, Shenzhen, Guangdong, China.</span>
-          <br><br>
-          <b style="font-size:20px;">Arindam Biswas,</b>
-          <span>Kazi Nazrul University, Asansol, WB, India.</span>
-          <br><br>
-          <b style="font-size:20px;">Snehanshu Pal,</b>
-          <span>NIT, Rourkela, India.</span>
-          <br><br>
-          <b style="font-size:20px;">Zhihan Lv,</b>
-          <span>Uppsala University, Sweden.</span>
-          <br><br>
-          <b style="font-size:20px;">Paul S. Pang,</b>
-          <span>Federation University, Australia.</span>
-          <br><br>
-          <b style="font-size:20px;">Tai-hoon Kim,</b>
-          <span>National Chonnam University, South Korea.</span>
-          <br><br>
-          <b style="font-size:20px;">Sabah Mohammed,</b>
-          <span>Lakehead University, Ontario, Canada.</span>
-          <br><br>
-          <b style="font-size:20px;">Jinan Fiaidhi,</b>
-          <span>Lakehead University, Ontario, Canada.</span>
-          <br><br>
-          <b style="font-size:20px;">Y. Byun,</b>
-          <span>Jeju National University, South Korea.</span>
-          <br><br>
-          <b style="font-size:20px;">Jaroslav Frnda,</b>
-          <span>University of Zilina, Zilina, Slovak Republic.</span>
-          <br><br>
-          <b style="font-size:20px;">Khuder Altangeral,</b>
-          <span>Mongolian Institute of Science and Technology, Mongolia.</span>
-          <br><br>
-          <b style="font-size:20px;">Sekhar Verma,</b>
-          <span>IIIT Allahabad, India.</span>
-          <br><br>
-          <b style="font-size:20px;">G. Yvette,</b>
-          <span>Iloilo Science and Technology University, Philippines.</span>
-          <br><br>
-          <b style="font-size:20px;">Rosslin Robles,</b>
-          <span>University of San Agustin, Philippines.</span>
-          <br><br>
-          <b style="font-size:20px;">Alexey Setekein,</b>
-          <span>Immanuel Kant Baltic Federal University, Russia.</span>
-          <br><br>
-          <b style="font-size:20px;">Sayan K. Ray,</b>
-          <span>Manukau Institute of Technology, Manukau, New Zealand.</span>
-          <br><br>
-          <b style="font-size:20px;">Thirupathi Rao Nakka,</b>
-          <span>Vignan's Institute of Information Technology, India.</span>
-          <br><br>
-          <b style="font-size:20px;">Xiao-Zhi Gao,</b>
-          <span>University of Eastern Finland, Finland.</span>
-          <br><br>
-          <b style="font-size:20px;">Tseren-Onolt Ishdorj,</b>
-          <span>Mongolian University of Science and Technology, Mongolia.</span>
-          <br><br>
-          <b style="font-size:20px;">Khuder Altangerel,</b>
-          <span>Mongolian University of Science and Technology, Mongolia.</span>
-          <br><br>
-          <b style="font-size:20px;">Randy Santocildes Tolentino,</b>
-          <span>Hanseo University, South Korea.</span>
-          <br><br>
-          <b style="font-size:20px;">Sourav Sen Gupta,</b>
-          <span>IMEC, Leuven, Belgium.</span>
-          <br><br>
-          <b style="font-size:20px;">N. Venkatram,</b>
-          <span>K L University, Guntur, India.</span>
-          <br><br>
-          <b style="font-size:20px;">Megha Bhushan,</b>
-          <span>DIT University, Dehradun, India.</span>
-          <br><br>
-          <b style="font-size:20px;">Kingsley Ogudo,</b>
-          <span>University of Johannesburg, South Africa.</span>
-          <br><br>
-      </div>
+<p>EXECUTION COMMITTEE</p>
+<b style="font-size:20px;">Shumaila Javaid,</b>
+<span>Tongji University, Shanghai, China</span>
+<br>
+<b style="font-size:20px;">P. Dhilleswara Rao,</b>
+<span>KLEF, Bowrampet Campus, Hyderabad, India</span>
+<br>
+<b style="font-size:20px;">Randy Santocildes Tolentino,</b>
+<span>Hanseo University, South Korea</span>
+<br>
+<b style="font-size:20px;">S. Srinivasa Rao,</b>
+<span>KLEF, Bowrampet Campus, Hyderabad, India</span>
+<br>
+<b style="font-size:20px;">Shanta Phani,</b>
+<span>BIT, Kolkata, India</span>
+<br>
+<b style="font-size:20px;">Nilgun Sengoz,</b>
+<span>Burdur Mehmet Akif Ersoy University, Turkey</span>
+<br>
+<b style="font-size:20px;">P. Krishnanjaneyulu,</b>
+<span>KLEF, Bowrampet Campus, Hyderabad, India</span>
 
-      <div class="section-title" data-aos="zoom-out">
-        <p>Editor(s):</p>
+
+<p>HOSPITALITY COMMITTEE</p>
+<b style="font-size:20px;">V. Muniraju Naidu,</b>
+<span>KLEF, Bowrampet Campus, Hyderabad, India</span>
+<br>
+<b style="font-size:20px;">K. Swanthana,</b>
+<span>KLEF, Bowrampet Campus, Hyderabad, India</span>
+<br>
+<b style="font-size:20px;">K. Swapnika,</b>
+<span>KLEF, Bowrampet Campus, Hyderabad, India</span>
+<br>
+<b style="font-size:20px;">R. Sai Shankar,</b>
+<span>KLEF, Bowrampet Campus, Hyderabad, India</span>
+
+
+        <p>CONVENER</p>
+        <b style="font-size:20px;">Kolli Srinivas,</b>
+        <span>KLEF, Bowrampet Campus, Hyderabad, India</span>
         <br>
-        <b style="font-size:20px;">Jaroslav Frnda,</b>
-        <span>University of Zilina, Zilina, Slovak Republic.</span>
-        <br><br>
-        <b style="font-size:20px;">Biswadeep Basu Mallick,</b>
-        <span>IEM, Kolkata, India.</span>
-        <br><br>
-        <b style="font-size:20px;">Debnath Bhattacharyya,</b>
-        <span>KL University, Guntur, India.</span>
-        <br><br>
-    </div>-->
+        <span>Mobile: +91 9949928399, Email: <a href="mailto:k.srinivas@klh.edu.in">k.srinivas@klh.edu.in</a></span>
 
+
+        <p>CO-CONVENOR</p>
+        <b style="font-size:20px;">P. Sirisha,</b>
+        <span>KLEF, Bowrampet Campus, Hyderabad, India</span>
+        <br>
+        <span>Mobile: +91 9963349962, Email: <a href="mailto:sirisha@klh.edu.in">sirisha@klh.edu.in</a></span>
+
+
+        <br>
         <div class="section-title" data-aos="zoom-out">
           <p>TECHNICAL OPERATIONS TEAM</p>
-          <br>
           <b style="font-size:20px;">Dhiren Dommeti,</b><!--www.dhiren.engineer-->
                 <br>
                 <span>dhiren2910dommeti@gmail.com</span>
                 <br>
                 <span>Clark University, Greater Boston, Massachusetts, USA.</span>
-          <br><br>
+  <br>
           <b style="font-size:20px;">Nallapati Siva Ramakrishna,</b>
                 <br>
                 <span>srk.nlpt@gmail.com</span>
                 <br>
                 <span>Clark University, Greater Boston, Massachusetts, USA.</span>
-        </div>
-      </div>
-    </section>
-    <!-- ======= Speakers Section ======= -->
-    <!--<section id="team" class="team">
-      <div class="container">
-
-        <div class="section-title" data-aos="zoom-out">
-          <h2>Conference Committee</h2>
-          <p>General Co-chairs:</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up">
-              <div class="member-img">
-                <img src="static/img/team/pfv.jpg" class="img-fluid" alt="" style="width:350px;height:250px;">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
-              <div class="member-info">
-                <h4>Philippe Fournier-Viger</h4>
-                <span>Shenzhen University, Guangdong, China.</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="member-img">
-                <img src="static/img/team/psk.jfif" class="img-fluid" alt="" style="width:350px;height:250px;">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-                <div class="member-info">
-                  <h4>P. Sai Kiran</h4>
-                  <span>K L University, Guntur, India.</span>
-                </div>
-            </div>
-          </div>
-        </div>-->
-
-        <!-- Editorial Members: -->
-       <!-- <div class="section-title" data-aos="zoom-out">
-          <p>Editorial Members:</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up">
-              <div class="member-img">
-                <img src="static/img/team/db.jpg" class="img-fluid" alt="" style="width:350px;height:250px;">
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-              </div>
-                <div class="member-info">
-                  <h4>Debnath Bhattacharyya</h4>
-                  <span>K L University, Guntur, India.</span>
-                </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="member-img">
-                <img src="static/img/team/ko.png" class="img-fluid" alt="" style="width:350px;height:250px;">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-                <div class="member-info">
-                  <h4>Kingsley Ogudo</h4>
-                  <span>University of Johannesburg, South Africa</span>
-                </div>
-            </div>
-          </div>
-
-            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up">
-              <div class="member-img">
-                <img src="static/img/team/Sanjoy-Saha.jpg" class="img-fluid" alt="" style="width:350px;height:250px;">
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-              </div>
-                <div class="member-info">
-                  <h4>Sanjoy Kumar Saha</h4>
-                  <span>Jadavpur University, Kolkata</span>
-                </div>
-            </div>
-          </div>
-            </div>-->
-        <!--ADVI-->
-        <!--
-        <div class="section-title" data-aos="zoom-out">
-          <p>Advisory committee:</p>
-        </div>
-        <div id="overflowTest" style="text-align: center;">
-          Yu-Chen Hu, Providence University, Taichung City, Taiwan
-          <br>
-          Zhihan Lv, Uppsala University, Sweden
-          <br>
-          Osvaldo Gervasi, University of Perugia, Italy
-          <br>
-          Paul S. Pang, Unitec Institute of Technology, New Zealand
-          <br>
-          Andrzej Goscinski, Deakin University, Australia
-          <br>
-          Jason Levy, University of Hawaii, Hawaii, USA
-          <br>
-          Tai-hoon Kim, Konkuk University, South Korea
-          <br>
-          Sabah Mohammed, Lakehead University, Ontario, Canada
-          <br>
-          Jinan Fiaidhi, Lakehead University, Ontario, Canada
-          <br>
-          Y. Byun, Jeju National University, South Korea
-          <br>
-          Amiya Bhaumick, LUC KL, Malaysia
-          <br>
-          Dipti Prasad Mukherjee, ISI Kolkata, India
-          <br>
-          Sanjoy Kumar Saha, Jadavpur University, Kolkata, India
-          <br>
-          Sekhar Verma, IIIT Allahabad, India
-          <br>
-          Pabitra Mitra, IIT Kharagpur, India
-          <br>
-          Joydeep Chandra, IIT Patna, India
-          <br>
-          Yu-Chen Hu, Providence University, Taiwan
-          <br>
-          G. Yvette, Iloilo Science and Technology University, Philippines
-          <br>
-          Rosslin Robles, University of San Agustin, Philippines
-          <br>
-          Hamed Daie Kasmaie, Islamic Azad University, Teharn, Iran
-          <br>
-          Alexey Setekein, Immanuel Kant Baltic Federal University, Russia
-          <br>
-          Paul S Pang, Unitec Institute of Technology, New Zealand<br>
-          Prabhat Mahanti, University of New Brunswick, Canada<br>
-          Richard G. Bush, Baker College, Michigan, USA<br>
-          Sayan K. Ray, Manukau Institute of Technology, Manukau, New Zealand<br>
-          Soocheol Kim, Daegu Catholic University, South Korea<br>
-          Thirupathi Rao Nakka, Vignan's Institute of Information Technology, India<br>
-          Mohammed Usman, King Khalid University, Abha, Saudi Arabia<br>
-          Oscar Cordon, Digital University, University of Granada, Spain<br>
-          Tarek Sobh, University of Bridgeport, Connecticut, USA
-          <br>
-          Xiao-Zhi Gao, University of Eastern Finland, Finland
-          <br>
-          Tseren-Onolt Ishdorj, Mongolian University of Science and Technology, Mongolia
-          <br>
-          Khuder Altangerel, Mongolian University of Science and Technology, Mongolia
-          <br>
-           Randy Santocildes Tolentino, Hanseo University, South Korea.
-          <br>
-          Diego Galar, Lulea University of Technology, Sweden
-          <br>
-          Divya Midhunchakkaravarthy, Lincoln University College, Malaysia
-          <br>
-          C.V. Jawhar, IIIT Hyderabad, India
-          <br>
-          Alexander Gelbukh, National Polytechnic Institute, Mexico
-          <br>
-          Saptarshi Das, Pennsylvania State University, USA
-          <br>
-          Sourav Sen Gupta, NTU, Singapore
-          <br>
-          Roumen Koumtchev, Technical University of Sofia, Bulgeria
-          <br>
-          Christopher Lazarus, Tunku Abdul Rahman University College, Malaysia
-          <br>
-          Fatiha Merazka, University of Science & Technology, Houari Boumediene, Algeria
-          <br>
-          JinAn Xu, Beijing Jiaotong University, China
-          <br>
-          Sebastian Ventura Soto, Universidad de Cordoba, Spain
-          <br>
-          Koneru Satyanarayana, KLEF, Guntur, India
-          <br>
-          K. Siva Kanchana Latha, KLEF, Guntur, India
-          <br>
-          Koneru Lakshman Havish, KLEF, Guntur, India
-          <br>
-          Koneru Raja Hareen, KLEF, Guntur, India
-          <br>
-          S.S. Mantha, KLEF, Guntur, India
-          <br>
-          Jagannatha Rao, KLEF, Guntur, India
-          <br>
-          G.Pardha Saradhi Varma, KLEF, Guntur, India.                   <br>
-          N. Venkatram, KLEF, Guntur, India.                             <br>
-          Y. V. S. S. S. V. Prasada Rao, KLEF, Guntur, India.
-        </div>
-      -->
-        <!-- Program Co-chairs: -->
-        <!--
-        <div class="section-title" data-aos="zoom-out">
-          <p>Program Co-chairs:</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up">
-              <div class="member-img">
-                <img src="static/img/team/pelin-angin.jpg" class="img-fluid" alt="" style="width:350px;height:250px;">
-                  <div class="social">
-                    <a href=""><i class="bi bi-twitter"></i></a>
-                    <a href=""><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-                    <a href=""><i class="bi bi-linkedin"></i></a>
-                  </div>
-              </div>
-                <div class="member-info">
-                  <h4>Pelin Angin</h4>
-                  <span>Middle East Technical University, Turkey.</span>
-                </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="member-img">
-                <img src="static/img/team/vs.jpg" class="img-fluid" alt="" style="width:350px;height:250px;">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-                <div class="member-info">
-                  <h4>V. Srikanth</h4>
-                  <span>K L University, Guntur, India.</span>
-                </div>
-            </div>
-          </div>
-            </div>
-          -->
-
-        <!--Management Co-chairs: -->
-        <!--
-        <div class="section-title" data-aos="zoom-out">
-          <p>Management Co-chairs:</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up">
-              <div class="member-img">
-                <img src="static/img/team/Sonia-Djebali.jpg" class="img-fluid" alt="" style="width:350px;height:250px;">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Sonia Djebali</h4>
-                <span>ESILV - Ecole Supérieure d'Ingénieurs Léonard de Vinci, Paris, France </span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="member-img">
-                <img src="static/img/team/pvrd.jfif" class="img-fluid" alt="" style="width:350px;height:250px;">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>PVRD Prasad</h4>
-                <span>K L University, Guntur, India.</span>
-              </div>
-            </div>
-          </div>
-        -->
-
-      <!--Convener-->
-      <!--<div class="section-title" data-aos="zoom-out">
-          <p>Convener</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up">
-              <div class="member-img">
-                <img src="static/img/team/tpk.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>T. Pavan Kumar</h4>
-                <span>K L University, Guntur, India.</span>
-              </div>
-            </div>
-          </div>
-        -->
-        <!--Managing Secretary-->
-       <!--
-       <div class="section-title" data-aos="zoom-out">
-          <p>Managing Secretary</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up">
-              <div class="member-img">
-                <img src="static/img/team/vnm.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>M. Venkata Naresh</h4>
-                <span>K L University, Guntur, India.</span>
-              </div>
-            </div>
-          </div>
-          </div>
-    </section>
-  -->
-    <!-- End Speakers Section -->
-
-    <!-- ======= Team Section ======= -->
-    <!--<section id="team" class="team">
-      <div class="container">
-
-        <div class="section-title" data-aos="zoom-out">
-          <h2>Team</h2>
-          <p>Core Team</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up">
-              <div class="member-img">
-                <img src="static/img/team/team-1.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Dhiren</h4>
-                <span>Founder/Director</span>
-                <span>SCORPION INTELLIGENCE AGENCY Technical Division</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="member-img">
-                <img src="static/img/team/team-2.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>N.Siva Rama Krishna</h4>
-                <span>Founder/Director </span>
-                <span>SCORPION INTELLIGENCE AGENCY Cybersecurity Division</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <div class="member-img">
-                <img src="static/img/team/team-3.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Subramanyam Yadavilli</h4>
-                <span>Founder/Director</span>
-                <span>SCORPION INTELLIGENCE AGENCY Electronics Division</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Subramanyam Yadavilli</h4>
-                <span>Founder/Director Electronics Division</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>-->
+            </section>
     <!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
@@ -2786,10 +1603,6 @@ DBLP, EI Compendex, INSPEC, Japanese Science and Technology Agency (JST), Norweg
           <h2>Contact</h2>
           <p>Contact</p>
         </div>
-
-
-
-
         <div class="row mt-5">
 
           <div class="col-lg-4" data-aos="fade-right">
@@ -3222,7 +2035,6 @@ function appendChildren(parent, children) {
 }
 //timer 2
 function handleTickInit(tick) {
-
         // Uncomment to set labels to different language ( in this case Dutch )
         /*
         var locale = {
